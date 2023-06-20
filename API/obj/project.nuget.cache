@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aRqJjpYzTOmdER5IJu4z+oG4imBI4SQ+iweOXzBTZmkqjFccWj4AwkL7OInmgXI6fQGMaPVsvhTebQvfJunkZQ==",
+  "dgSpecHash": "BYlG2zoBoHw0IO3++VRH0scGkihrl7hUuuSLs1EX6dqpKvdsgixen1riCtlr57FF2/BfStyisoRsUlD+Gs0YHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\API\\API.csproj",
+  "projectFilePath": "c:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mtali\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mtali\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
