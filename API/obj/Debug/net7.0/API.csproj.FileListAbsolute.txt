@@ -67,3 +67,7 @@ C:\Users\mtali\Desktop\DOTNET 7\Course\skinet\API\obj\Debug\net7.0\scopedcss\bun
 C:\Users\mtali\Desktop\DOTNET 7\Course\skinet\API\obj\Debug\net7.0\API.csproj.CopyComplete
 C:\Users\mtali\Desktop\DOTNET 7\Course\skinet\API\obj\Debug\net7.0\API.genruntimeconfig.cache
 C:\Users\mtali\Desktop\DOTNET 7\Course\skinet\API\obj\Debug\net7.0\ref\API.dll
+C:\Users\mtali\Desktop\DOTNET 7\Course\skinet\API\bin\Debug\net7.0\Core.dll
+C:\Users\mtali\Desktop\DOTNET 7\Course\skinet\API\bin\Debug\net7.0\Infrastructure.dll
+C:\Users\mtali\Desktop\DOTNET 7\Course\skinet\API\bin\Debug\net7.0\Infrastructure.pdb
+C:\Users\mtali\Desktop\DOTNET 7\Course\skinet\API\bin\Debug\net7.0\Core.pdb

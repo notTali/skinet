@@ -1,17 +1,93 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\API\\API.csproj": {}
+    "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\API\\API.csproj": {
+    "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\API\\API.csproj",
+        "projectPath": "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\API\\API.csproj",
         "packagesPath": "C:\\Users\\mtali\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\API\\obj\\",
+        "outputPath": "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mtali\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\mtali\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mtali\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,24 +113,67 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\mtali\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mtali\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\mtali\\Desktop\\DOTNET 7\\Course\\skinet\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.7, )"
-            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[7.0.7, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -69,9 +188,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
