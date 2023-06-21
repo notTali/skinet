@@ -26,6 +26,23 @@ namespace API.Controllers
             return Ok(products);
         }
 
+        // endpoints
+        [HttpGet("brands")]
+        public async Task <ActionResult<IReadOnlyList<ProductBrand>>> GetBrands(){ 
+            // use "Task" to make it async.
+            // This prevents the waiting of requests. Cuncurrent requests.
+            var brands = await _repo.GetProductBrandsAsync();
+            return Ok(brands);
+        }
+        // endpoints
+        [HttpGet("types")]
+        public async Task <ActionResult<List<ProductType>>> GetTypes(){ 
+            // use "Task" to make it async.
+            // This prevents the waiting of requests. Cuncurrent requests.
+            var types = await _repo.GetProductTypesAsync();
+            return Ok(types);
+        }
+
         [HttpGet("{id}")] // get the id from the request url
         public async Task<ActionResult<Product>> GetProduct(int id){ // access the id in the controller
             return await _repo.GetProductByIdAsync(id);
